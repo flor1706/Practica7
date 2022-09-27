@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  background-color: rgb(255, 227, 179);
+}
+
+img {}
+
+
+.menu {
+  background-color: rgb(223, 88, 55);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: 223, 88, 55;
+  display: flex;
+}
+
+a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lawngreen;
+}
+
+.ul1{
+  float: left;
+}
