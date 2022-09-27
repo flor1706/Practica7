@@ -1,38 +1,32 @@
 body {
   width: 100%;
   background-color: rgb(255, 227, 179);
+  font-family: sans-serif;
 }
 
-img {}
-
-
-.menu {
+.menu1 {
+  list-style: none;
+  padding: 10px;
   background-color: rgb(223, 88, 55);
+  width: 100%;
   display: flex;
   justify-content: space-between;
 
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: 223, 88, 55;
-  display: flex;
+img{
+  width: 80px;
 }
 
-a {
-  display: block;
-  color: white;
-  padding: 16px;
+.menu1 li a {
   text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
 }
-
-a:hover {
-  background-color: lawngreen;
+.menu1 li{
+  display: inline-block;
+  text-align: center;
+  
 }
-
-.ul1{
-  float: left;
+.menu1 li a:hover{
+  background-color:rgb(200,200,55);
 }
