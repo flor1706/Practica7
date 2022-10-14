@@ -1,0 +1,44 @@
+CODIGO BARRA NAVEGACION
+
+-------------------------HTML--------------------
+
+<div class="ListaNav">
+            <ul>
+                <li> <a href="#">MENU</a> </li>
+                <li> <a href="#">CONTACTANOS</a></li>
+                <li> <a href="#">NUESTRA CASA</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#">LOGIN</a></li>
+                <li> <a href="#">REGISTRO</a></li>
+            </ul>
+        </div>
+----------------------------------CSS----------------------------------
+
+.ListaNav{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+        li{
+            margin-right: 10px;
+            display: inline-block;
+        }
+            a{
+                padding: 5px;
+                text-decoration: none;
+                color: white;
+                border-radius: 1px;
+            }
+            li a:hover{
+                transition-duration: 1s;
+                font-size: 1.1em;
+                background-color: rgba(255, 94, 0, 0.3);
+            }
+            li a:active{
+                color: aqua;
+            }
